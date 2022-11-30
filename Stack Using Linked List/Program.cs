@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Stack_Using_Linked_List
 {
-    internal class Program
+    class Node
     {
+        public int info;
+        public Node next;
+        public Node(int i, Node n)
+        {
+            info = i;
+            next = n;
+        }
     }
 }
