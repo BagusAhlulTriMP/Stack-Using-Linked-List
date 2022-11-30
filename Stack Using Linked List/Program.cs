@@ -16,4 +16,22 @@ namespace Stack_Using_Linked_List
             next = n;
         }
     }
+
+    class Stacks
+    {
+
+        Node top;
+
+        public Stacks()
+        {
+            top = null;
+        }
+        bool empty()
+        {
+            if (top == null)
+                return (true);
+            else
+                return (false);
+        }
+    }
 }
